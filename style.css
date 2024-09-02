@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 3vmin;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.get{
+    display: flex;
+    border: 2px solid blueviolet;
+    padding: 2px;
+    box-shadow: 0 0 1rem rgb(11, 96, 96);
+}
+
+.invest{
+    border: 2px solid blueviolet;
+    padding: 2px;
+    box-shadow: 0 0 1rem rgb(65, 154, 154);
+}
+
+.contaner{
+    display: flex;
+    justify-content: center;
+}
+
+.game{
+    height:75vmin;
+    width: 75vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:0.3em;
+}
+
+.box{
+    height: 14vmin;
+    width: 14vmin;
+    box-shadow: 0 0 1rem rgb(11, 96, 96);
+    border: none;
+    color: rgb(33, 152, 203);
+    font-size: 8vmin;
+}
+
+.box:hover{
+    box-shadow: 0 0 1.3rem rgb(4, 49, 49);
+}
+
+
+.withdraw{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    padding:3px 10px 3px 10px;
+    border-radius: 0.7rem;
+    background-color: rgb(206, 174, 236);
+    border: 0.2px solid black;
+    box-shadow:0 0 1.3rem rgb(4, 49, 49) ;
+}
+
+.withdraw:hover{
+    background-color: rgb(151, 61, 235);
+    border: 0.3px solid rgb(21, 21, 21);
+    box-shadow:0 0 1.3rem rgb(7, 26, 26) ;
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        margin-bottom: 3rem;
+    }
+    .game{
+        margin-top: 2rem;
+        height:80vmin;
+        width: 80vmin;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap:0.3em;
+    }
+    
+    .box{
+        height: 15vmin;
+        width: 15vmin;
+        box-shadow: 0 0 1rem rgb(11, 96, 96);
+        border: none;
+        color: rgb(33, 152, 203);
+        font-size: 8vmin;
+    }
+    .withdraw{
+        margin-top: 3rem;
+    }
+
+    
+}
